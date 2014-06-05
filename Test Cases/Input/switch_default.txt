@@ -1,0 +1,11 @@
+a,b,c,d,e,w;{	a = 1;
+	b = 99;
+	c = 4;
+	d = 2345;
+	e = 3 + b;
+	w = 100;	SWITCH e	{		CASE 1: {print b;}
+		CASE 2: {print d;}
+		CASE 3: {IF w > d {print d;}}
+		CASE 4: {print e;}
+		CASE 5: {print a;}		CASE 6: {print d;} 
+		DEFAULT: {IF c > a {print w;}}	}}

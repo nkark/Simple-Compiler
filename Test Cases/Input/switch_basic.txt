@@ -1,0 +1,1 @@
+a,b,c,w;{	a = 3;	b = 99;	c = 4;	w = 99999;	SWITCH a	{		CASE 1: {print b;}		CASE 2: {print d;}		CASE 3: {print c;}			DEFAULT: {print w;}	}}
