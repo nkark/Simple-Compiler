@@ -102,39 +102,12 @@ struct statementNode
 };
 
 //---------------------------------------------------------
-// Functions that are provided:
+
 
 void print_debug(const char * format, ...);
 void ungetToken();
 int  getToken();
 
-/*
- * You need to write a function with the signature that follows this comment. 
- * It is supposed to parse the input program and generate an intermediate 
- * representation for it. Write all your code in a separate file and include 
- * this header file (compiler.h) in your code.
- *
- * A) If you write your code in C, compile using the following command:
- *
- *   $ gcc compiler.c yourcode.c
- *
- * and include the header in your C code like this:
- *
- *  #include "compiler.h"
- *
- * B) If you use C++, use the following commands to compile your code:
- *
- *   $ gcc -c compiler.c
- *   $ g++ yourcode.cpp compiler.o
- *
- * and also make sure that you include this header file in the following way in
- * your C++ code:
- *
- *  extern "C" {
- *      #include "compiler.h"
- *  }
- *
- */
  
  
 struct statementNode * parse_program_and_generate_intermediate_representation();
